@@ -15,15 +15,24 @@ void removeQ();                                  //function protypes
 struct node* top=NULL;                           //global pointer set as NULL
 
 void main(void){
+    
     addQ(1,2);
     addQ(3,4);
     addQ(5,6);
     addQ(7,8);
     addQ(33,44);
+
     print_Queue();
     removeQ();
-    printf("After removing\n");
+    removeQ();
+    removeQ();
+    removeQ();
+
+    printf("****************\n");
+    printf(" After removing\n");
+    printf("****************\n");
     print_Queue();
+    printf("\n");
 
 }
 
