@@ -32,7 +32,6 @@ void main(void){
     print_stack("after the first pop");
 }
 
-
 struct node *pop(void){
     struct node *tmp;
     tmp=top;
@@ -43,7 +42,7 @@ struct node *pop(void){
         printf("-----------------------\n");
        // (*tmp).x,(*tmp).y
         return(tmp);
-    }
+}
 
 
 void push(int x, int y){
