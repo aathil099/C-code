@@ -4,8 +4,8 @@
 void printArray(int arr[], int size);
 void sort(int arr[], int size);
 
+int arr[] = {12, 11, 13, 5, 6};
 
-    int arr[] = {12, 11, 13, 5, 6};
 int main(void){
 
     int size = sizeof(arr) / sizeof(arr[0]);
