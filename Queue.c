@@ -65,6 +65,7 @@ void removeQ(){
     struct node* temp=top;
     top=top->next;     // Move the top to the next node
     free(temp);      // Free the memory of the removed node
+    //temp=NULL;
 }
 
 void print_Queue(){
